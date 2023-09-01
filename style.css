@@ -37,7 +37,8 @@ button {
   background-color: #05c7cf;
   color: #fff;
   border: none;
-  padding: 8px 6px;
+  padding: 8px 24px;
+  border-radius:2cap;
   font-size: 24px;
   cursor: pointer;
 }
@@ -144,6 +145,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 input,
@@ -175,4 +177,67 @@ footer {
 
 .footer_link {
   padding-left: 0px 16px;
+}
+
+/* Responsive for Mobile, Tablets, and other devices */
+
+@media(max-width: 728px){ ;
+  .row{
+    flex-direction: column;
+  }
+
+  .home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1{
+    font-size: 60px;
+    text-align: center;
+  }
+  .subheader{
+    text-align: center;
+    font-size: 26px;
+  }
+  .home__description--button{
+    width: 256px;
+  }
+  ul{
+    display: none;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  .section__description{
+    flex-direction: column;
+  }
+  h2{
+    font-size: 48px;
+  }
+  .section__description--para{
+    text-align: center;
+    font-size: 22px;
+  }
+  .section__description--wrapper{
+    width: 100%;
+  }
+  .about__img--wrapper{
+    width: 75%;
+  }
+  #discord .section__description{
+    flex-direction: column-reverse;
+  }
+  footer{
+    padding: 12px 18px;
+  }
+  .footer_link{
+    font-size: 18px;
+    margin-left: 12px;
+  }
+  .footer_links{
+    margin-bottom: 24px;
+  }
 }
