@@ -181,7 +181,7 @@ footer {
 
 /* Responsive for Mobile, Tablets, and other devices */
 
-@media(max-width: 728px){ ;
+@media(max-width: 728px){ 
   .row{
     flex-direction: column;
   }
