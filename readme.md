@@ -1,7 +1,17 @@
-# About the Project:
+## About
+ Clone of the website designed by the course __'Frontend Simplified'__.
 
- This is a project on a basic web front-end development. This project is a clone of the website designed by the course __Frontend Simplified__.
+ ## Screenshoots:
+ ![image](./Screenshoots/Homepage.png)
+ ![image](./Screenshoots/About.png)
+ ![image](./Screenshoots/Section3.png)
+ ![image](./Screenshoots/footer.png)
 
- This project is completed by only using Html and Css.
- 
- "**index.html**" contains the html file and its css is written in file "**style.css**"
+ ## Built With
+ - HTML
+ - CSS
+ ## Authors
+ 👤 **<Aavash Devkota>**
+
+ ## License
+ This project is MIT licensed.
